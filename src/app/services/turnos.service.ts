@@ -12,9 +12,9 @@ export class TurnosService {
 
   constructor(private http: HttpClient) { }
 
-  private url = "http://localhost:5000/api/turnos"
-  private url2 = "http://localhost:5000/api/turnos/estado/"
-  private url3 = "http://localhost:5000/api/turnos/edit/"
+  private url = "https://beautyapi-9rry.onrender.com/api/turnos"
+  private url2 = "https://beautyapi-9rry.onrender.com/api/turnos/estado/"
+  private url3 = "https://beautyapi-9rry.onrender.com/api/turnos/edit/"
   getTurnos(id: string): Observable<ITurnos[]> {
     return this.http.get<ITurnos[]>(`${this.url}/${id}`).pipe(
       tap(() => {

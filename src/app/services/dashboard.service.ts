@@ -9,8 +9,8 @@ import { ServiciosDashboard } from '../interfaces/dashboard.interfaces';
 export class DashboardService {
 
   private refresh$ = new Subject<void>
-  private url="http://localhost:5000/api/servicios-utilizados"
-  private url2="http://localhost:5000/api/citas-por-dia"
+  private url="https://beautyapi-9rry.onrender.com/api/servicios-utilizados"
+  private url2="https://beautyapi-9rry.onrender.com/api/citas-por-dia"
 
 
   constructor(private http:HttpClient) { }

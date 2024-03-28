@@ -11,8 +11,8 @@ export class ServiciosService {
   private refresh$ = new Subject<void>
   constructor(private http:HttpClient) { }
 
-  private url = 'http://localhost:5000/api/servicios/'
-  private url2 ='http://localhost:5000/api/servicios/estado/'
+  private url = 'https://beautyapi-9rry.onrender.com/api/servicios/'
+  private url2 ='https://beautyapi-9rry.onrender.com/api/servicios/estado/'
 
   get refresh(){
     return this.refresh$;

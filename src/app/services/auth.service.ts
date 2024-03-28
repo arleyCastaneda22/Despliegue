@@ -29,10 +29,10 @@ export class AuthService {
     });
   }
 
-  private loginUrl = "http://localhost:5000/login"
-  private registerUrl = "http://localhost:5000/register";
-  private forgot = 'http://localhost:5000/forgot-password';
-  private actualizacionContrasena = "http://localhost:5000/cambio/";
+  private loginUrl = "https://beautyapi-9rry.onrender.com/login"
+  private registerUrl = "https://beautyapi-9rry.onrender.com/register";
+  private forgot = 'https://beautyapi-9rry.onrender.com/forgot-password';
+  private actualizacionContrasena = "https://beautyapi-9rry.onrender.com/cambio/";
 
 
   login(email: string, contrasena: string): Observable<any> {

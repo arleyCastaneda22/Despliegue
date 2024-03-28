@@ -10,7 +10,7 @@ import { Role } from '../interfaces/role.interfaces';
 export class RolesService {
 
   private refresh$ = new Subject<void>
-  private url ="http://localhost:5000/api/roles/"
+  private url ="https://beautyapi-9rry.onrender.com/api/roles/"
 
   constructor(private http: HttpClient) { }
 

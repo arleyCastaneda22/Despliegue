@@ -10,7 +10,7 @@ import { Citas } from '../interfaces/cita.interfaces';
 export class CitasService {
 
   private refresh$ = new Subject<void>();
-  private apiUrl = "http://localhost:5000/api/citas/";
+  private apiUrl = "https://beautyapi-9rry.onrender.com/api/citas/";
 
   constructor(private http: HttpClient) { }
 

@@ -10,8 +10,8 @@ export class ClienteService {
 
 
   private refresh$ = new Subject<void>
-  private url ="http://localhost:5000/api/clientes/"
-  private url2 ="http://localhost:5000/api/clientes/estado/"
+  private url ="https://beautyapi-9rry.onrender.com/api/clientes/"
+  private url2 ="https://beautyapi-9rry.onrender.com/api/clientes/estado/"
   constructor(private http: HttpClient) { }
 
 

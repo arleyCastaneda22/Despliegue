@@ -9,8 +9,8 @@ import { HttpClient } from '@angular/common/http';
 export class EstilistaService {
 
   private refresh$ = new Subject<void>
-  private url ="http://localhost:5000/api/estilistas/"
-  private url2 ="http://localhost:5000/api/estilistas/estado/"
+  private url ="https://beautyapi-9rry.onrender.com/api/estilistas/"
+  private url2 ="https://beautyapi-9rry.onrender.com/api/estilistas/estado/"
 
   constructor(private http: HttpClient) { }
 

@@ -8,8 +8,8 @@ import { Usuario } from '../interfaces/usuario.interfaces';
 })
 export class UsuarioService {
   private refresh$ = new Subject<void>();
-  private apiUrl = "http://localhost:5000/api/usuarios/";
-  private url2 = "http://localhost:5000/api/usuarios/estado/";
+  private apiUrl = "https://beautyapi-9rry.onrender.com/api/usuarios/";
+  private url2 = "https://beautyapi-9rry.onrender.com/api/usuarios/estado/";
 
   constructor(private http: HttpClient) { }
 
